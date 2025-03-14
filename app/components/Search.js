@@ -16,6 +16,7 @@ function Search({ searchTerm, setSearchTerm }) {
     const handleClearSearch = () => {
         localStorage.removeItem("lastSearch");
         setSearchTerm("");
+        
     };
 
     return (
@@ -34,9 +35,7 @@ function Search({ searchTerm, setSearchTerm }) {
             </div>
             
             <div className="search-home">
-                <Link href={`./?query=${setSearchTerm}`}>
                     <button className="movie-button" onClick={handleClearSearch}> Clear search</button>
-                </Link>
             </div>
 
         </div>

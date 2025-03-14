@@ -1,32 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Movies & TV Shows App
 
-## Getting Started
+This is a **Movies & TV Shows App** built using **Next.js**. The app allows users to browse, search, view details, and rate movies using the **OMDB API**. Ratings are stored using `localStorage` to persist user preferences.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-```
+- **Search Movies & TV Shows** using OMDB API
+- **Rate Movies & TV Shows** (Saved using `localStorage`)
+- **Smooth User Experience** with a SPA approach in Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, React, HTML, CSS, bootstrap
+- **State Management:** React Hooks
+- **Storage:** LocalStorage
+- **API:** OMDB API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+##  Installation & Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the Repository:**
+   ```
+   git@github.com:Deepanjali2915/movie_app.git
+   cd movie_app
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install Dependencies:**
+   ```
+   npm install 
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the App:**
+   ```
+   npm run dev  
+   ```
+
+4. **Open in Browser:**
+   Go to [http://localhost:3000]to view the app.
+
+## API Usage
+
+- This app fetches movie data from the **OMDB API**.
+  ```sh
+  NEXT_PUBLIC_OMDB_API_KEY=7f38cf13
+  ```
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
 
-
+---

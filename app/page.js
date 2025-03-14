@@ -26,7 +26,8 @@ function Page() {
             setSearchTerm(lastSearch);
 
         } else if (lastSearch == "") {
-
+            setSearchTerm("");
+            setMovies(Data)
         }
     }, [searchTerm]);
 

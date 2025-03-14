@@ -15,7 +15,7 @@ function Details() {
     useEffect(() => {
         if (!params.id) return;
 
-        fetch(`https://www.omdbapi.com/?apikey=fd94b288&i=${params.id}`)
+        fetch(`https://www.omdbapi.com/?apikey=7f38cf13&i=${params.id}`)
             .then(res => res.json())
             .then(data => {
                 if (data.Response === "True") {
@@ -23,7 +23,7 @@ function Details() {
                 }
             })
             .catch(error => console.error("Fetch error:", error));
-    }, [params.id]);
+    }, []);
 
     if (!movie) {
         return <h1 className="detailsText-h1">Movie loading...</h1>;
