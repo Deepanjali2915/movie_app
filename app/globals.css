@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(30, 30, 30) !important;
+}
+
+.container {
+  background: rgb(60, 60, 60);
+}
+
+.row {
+  padding-top: 10px;
+}
+
+.box {
+  margin-top: 20px;
+}
+
+.box:hover {
+  box-shadow: 0 10px 20px black;
+  transform: scale(1);
+}
+
+.card-image {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.movie-text {
+  color: white;
+  font-family: "Inknut Antiqua";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  padding-top: 10px;
+}
+
+.movie-button {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  height: 30px;
+  width: 400px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  border: none;
+}
+
+.home-button {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  height: 30px;
+  width: 400px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  border: none;
+  float: right;
+}
+
+
+.h1 {
+  color: blue;
+}
+
+
+.details-container {
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  background-color: rgb(60, 60, 60);
+}
+
+.detailsText-h1 {
+  font-weight: bolder;
+  color: blue;
+  font-size: 50px;
+  font-family: math;
+
+}
+
+.detailsText {
+  color: white;
+  font-size: 35px;
+  font-family: math;
+}
+
+
+.search-group {
+  margin-top: 51px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 89px;
+}
+
+.form-outline {
+  height: 60px;
+  width: 230px;
+  border: 2px solid gray;
+}
+
+.search {
+  height: 58px;
+  width: 230px;
+  border: none;
+  padding-top: 2px;
+  color: #3C3030;
+  font-family: "Iowan Old Style";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.go {
+  background-color: blue;
+  border-radius: 1px;
+  width: 61px;
+  height: 60px;
+  border: none;
+  color: #FDFDFA;
+  font-family: "Iowan Old Style";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.rating {
+  display: contents;
+}
+
+.star {
+  border-radius: 10px;
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+
+}
+
+
+.search-home{
+  margin-left: 1210px;
+}
