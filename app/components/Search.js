@@ -22,7 +22,7 @@ function Search({ searchTerm, setSearchTerm }) {
     return (
         <div>
 
-            <Link href="/" id="autoRedirect"></Link>
+            {/* <Link href="/" id="autoRedirect"></Link> */}
 
             <div className="search-group">
                 <div className="form-outline">

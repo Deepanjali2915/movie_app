@@ -46,7 +46,6 @@ function Details() {
                     <h3 className="detailsText rating">
                         Give the rating only once
                         <Rating productId={movie.imdbID} />
-
                     </h3>
                 </ul>
             </div>

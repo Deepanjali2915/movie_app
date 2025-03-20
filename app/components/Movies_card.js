@@ -8,6 +8,7 @@ function Movies_card({ movies }) {
 		<div className='container'>
 			<div className='row'>
 				<h1 className="detailsText-h1"> Movies </h1>
+
 				{movies.map(function (movie) {
 					return (
 						<div className="box col-sm-4" key={movie.imdbID}>
@@ -25,7 +26,10 @@ function Movies_card({ movies }) {
 						</div>
 					);
 				})}
+				
 			</div>
+			{movies.length === 0 && <h2 className="detailsText-h1"> Data not found</h2>}
+
 		</div>
 	);
 }

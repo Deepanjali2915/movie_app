@@ -29,6 +29,7 @@ function Page() {
             setSearchTerm("");
             setMovies(Data)
         }
+
     }, [searchTerm]);
 
     return (
